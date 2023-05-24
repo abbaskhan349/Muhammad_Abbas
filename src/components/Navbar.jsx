@@ -25,7 +25,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn text-base rounded-2xl px-8">Let's Talk</a>
+          <a className="btn text-base rounded-2xl px-8">Let&apos;s Talk</a>
         </div>
       </div>
     </>
