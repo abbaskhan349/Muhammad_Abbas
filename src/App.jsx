@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div className='px-8' data-theme = "black"> 
+    <div className=' bg-slate-100' data-theme = "light"> 
       <Navbar />
       <Home />
     </div>
