@@ -1,21 +1,19 @@
-import abbaspic from "../images/abbas_pic.png";
+import abbaspic from "../images/my_pic.jpg";
 
 function Home() {
   return (
     <div className="px-[40px] mt-[80px] flex flex-col gap-5">
       <div className="flex gap-5">
-        <div className="h-[330px] w-[560px] rounded-3xl bg-white p-[50px]">
-          <div className="flex gap-5">
-            <figure className="rounded-tl-2xl rounded-br-2xl">
-              <img src={abbaspic} alt="Movie" className="h-[230px] w-[180px]" />
-            </figure>
-            <div className="flex flex-col justify-center">
-              <h4 className="text-sm uppercase">A Frontend Developer</h4>
-              <h2 className="text-[30px] font-bold">
-                Muhammad Abbas
-              </h2>
-              <p className="text-sm">I am a web developer based in Pakistan</p>
-            </div>
+        <div className=" flex gap-8 h-80 w-[560px] rounded-3xl bg-white p-10">
+          <img
+            src={abbaspic}
+            alt="Movie"
+            className="w-[45%] rounded-tl-3xl rounded-br-3xl"
+          />
+          <div className="flex flex-col text-gray-400 justify-center w-[50%]">
+            <h4 className="text-sm uppercase">A Frontend Developer</h4>
+            <h2 className="text-[30px] font-semibold text-black">Muhammad Abbas</h2>
+            <p className="text-sm">I am a web developer based in Pakistan</p>
           </div>
         </div>
         <div className="flex flex-col gap-5">
