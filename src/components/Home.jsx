@@ -11,9 +11,9 @@ function Home() {
             className="w-[45%] rounded-tl-3xl rounded-br-3xl"
           />
           <div className="flex flex-col text-gray-400 justify-center w-[50%]">
-            <h4 className="text-sm uppercase">A Frontend Developer</h4>
+            <h4 className="text-sm uppercase">A MERN Stack Developer</h4>
             <h2 className="text-[30px] font-semibold text-black">Muhammad Abbas</h2>
-            <p className="text-sm">I am a web developer based in Pakistan</p>
+            <p className="text-sm">I am a Web Developer based in Pakistan</p>
           </div>
         </div>
         <div className="flex flex-col gap-5">
